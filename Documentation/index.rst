@@ -19,8 +19,13 @@ function acquires or releases.
 Linus Torvalds started writing Sparse in 2003, initially targeting issues such
 as mixing pointers to user address space and pointers to kernel address space.
 
-Josh Triplett was Sparse's first maintainer in 2006. This role was taken over
-by Christopher Li in 2009 and by Luc Van Oostenryck in late 2018.
+Maintainer
+----------
+
+1. 2006 - 2009, Josh Triplett
+2. 2009 - 2018, Chris Li
+3. 2018 - 2025, Luc Van Oostenryck
+4. 2025 - present, Chris Li
 
 Getting Sparse
 --------------
