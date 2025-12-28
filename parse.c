@@ -1993,6 +1993,7 @@ static struct token *parameter_declaration(struct token *token, struct symbol *s
 
 	token = declaration_specifiers(token, &ctx);
 	ctx.ident = &sym->ident;
+	ctx.ident_pos = &sym->pos;
 	token = declarator(token, &ctx);
 	token = handle_attributes(token, &ctx);
 	apply_modifiers(token->pos, &ctx);
