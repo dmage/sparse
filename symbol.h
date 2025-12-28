@@ -107,6 +107,7 @@ struct ctype {
 struct decl_state {
 	struct ctype ctype;
 	struct ident **ident;
+	struct position *ident_pos;
 	struct symbol_op *mode;
 	struct expression *cleanup;
 	unsigned long f_modifiers;		// function attributes
